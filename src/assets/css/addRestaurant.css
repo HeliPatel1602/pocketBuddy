@@ -1,0 +1,172 @@
+.add-rest-main-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 22.25%, rgba(0, 0, 0, 0.5) 55.5%) center center / cover no-repeat, url("../images/addRestaurant2.jpg");
+  background-attachment: fixed;
+}
+.add-rest-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    
+  }
+  
+  .add-rest-nav{
+    cursor: pointer;
+    font-family: "Emilys Candy", serif;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .form-container {
+    padding: 40px;
+    border-radius: 12px;
+    width: 45%;
+    min-width: 420px;
+  }
+  
+  
+  .main-heading {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Emilys Candy", serif;
+    letter-spacing: 1px;
+  }
+  
+  
+
+  .form-group {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+  }
+  
+  
+   label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #444;
+  }
+  
+  
+  
+   input,
+   select,
+   textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1.5px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+   input:focus,
+   select:focus,
+   textarea:focus {
+    border-color: #690B22;
+    outline: none;
+  }
+
+  .location {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  
+  .lat-long {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .fullname{
+    display: flex;
+    justify-content:flex-start;
+    gap: 40px;
+  }
+   
+
+
+  .address-container {
+    flex: 1;
+  }
+  
+  #address {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  
+ 
+  .submit-btn {
+    width: 100%;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  
+  .img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+  }
+  
+  .img-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    object-fit: contain;
+  }
+  
+  .img-container img:hover {
+    transform: scale(1.05);
+  }
+  
+
+  
+  
+  
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .form-container,
+    .img-container {
+      width: 90%;
+    }
+  }
+  

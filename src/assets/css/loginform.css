@@ -1,0 +1,131 @@
+.login-container{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container{
+    width: max(23vw,350px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-heading{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Emilys Candy", serif;
+    color: #690B22;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.login-heading i:hover{
+    cursor: pointer;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #690B22;
+    margin-bottom: 10px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #690B22;
+    box-shadow: 0px 0px 10px #690B22;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top:10px ;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #690B22;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #5c192a;
+    color: white;
+}
+
+span{
+    color: red;
+    margin-left: 3px;
+}
+
+p{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: #690B22;
+    border: none;
+    background-color: transparent;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
+
+.login-password{
+    position: relative;
+}
+
+.login-password input{
+    padding-right: 40px;
+}
+
+.login-password-toggle-btn {
+    position: absolute;
+    margin-top: 14px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+}
+
+.forgot-password{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.forgot-pass-link{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,173 @@
+.restaurant-card-details {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.restaurant-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.restaurant-card-pic {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.restaurant-address,
+.restaurant-pincode,
+.restaurant-contact,
+.restaurant-timings,
+.restaurant-card-description,
+.restaurant-food-type {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.restaurant-contact,
+.restaurant-timings {
+  font-weight: bold;
+}
+
+.restaurant-card-description {
+  font-style: italic;
+}
+
+.rating-container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.average-rating {
+  position: absolute;
+  top: 5px; 
+  right: 0px; 
+  background-color: green; 
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.average-rating i {
+  font-size: 15px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-btns {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-btns button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active-tab {
+  color: #ff5a5f;
+  border-bottom: 3px solid #ff5a5f;
+}
+
+.inactive-tab {
+  color: #666;
+}
+
+.inactive-tab:hover {
+  color: #ff5a5f;
+}
+
+.detail-content  {
+  margin: 0;
+ padding: 16px;
+ display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left;
+}
+
+.offer-details {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 15px;
+  text-align: left;
+}
+
+.offer-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e63946;
+  margin-bottom: 5px;
+}
+
+.offer-description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.offer-endDate {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+.offer-btn{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff5a5f;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .restaurant-card-details {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .restaurant-card-title {
+    font-size: 20px;
+  }
+
+  .restaurant-card-pic {
+    height: 200px;
+  }
+}

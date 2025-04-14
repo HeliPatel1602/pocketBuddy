@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255,0.2);
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  color: #690B22;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.nav-btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-right: 120px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
+
+.nav-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: #690B22;
+}
+
+
+.profile-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-pic{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #690B22;
+}
+
+.userName{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.userName i {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.profile-popup {
+  position: absolute;
+  top: 55px;
+  right: 120px;
+  background: white;
+  box-shadow: 0px 0px 10px #690B22;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+  z-index: 10;
+  text-align: center;
+}
+
+.popup-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-popup{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-popup-li {
+  padding: 10px;
+  text-align: left;
+  transition: background 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.user-popup-li:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.user-popup-opt {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+
+.user-popup-li button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 450;
+  padding: 0;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.hero-title{
+  font-family: "Emilys Candy", serif;
+  font-weight: 600;
+  font-size: 70px;
+  letter-spacing: 2px;
+  color: #751930;
+}
+
+.hero-text{
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  font-size: 20px;
+  letter-spacing: 8px;
+  font-weight: 300;
+}
+
+.get-started-btn{
+  padding: 10px;
+  width: 250px;
+  background-color: #690B22;
+  color: rgb(250, 242, 224);
+  font-size: 23px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.img-container{
+  margin-right: 20px;
+}
+
+.img-container img{
+  height: 450px;
+  box-shadow: none;
+  outline: none;
+  background: none;
+
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(225, 224, 224);
+  color: black;
+}

@@ -1,0 +1,101 @@
+.city-inp-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+.city-inp{
+  width: 250px;
+  padding-left: 40px;
+}
+
+.city-inp:focus{
+  border-color: #690B22;
+}
+
+.city-inp-container i {
+  position: absolute;
+  left: 37%;
+  color: #bf5670;
+}
+
+.city-inp-btn{
+  padding: 10px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  border: none;
+  background-color: #6c1c30;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.restaurant-card-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+@media (min-width: 640px) {
+  .restaurant-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .restaurant-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Styling */
+.restaurant-card {
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.restaurant-card:hover{
+  background-color: white; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  cursor: pointer;
+}
+
+/* Image Styling */
+.restaurant-pic {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Title Styling */
+.restaurant-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+/* Description Styling */
+.restaurant-description {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.restaurant-details{
+  display: flex;
+  justify-content: space-between;
+  color: #4a566b;
+}
+
+.restaurant-location{
+  margin-top: 8px;
+  font-size: 15px;
+}

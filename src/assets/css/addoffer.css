@@ -1,0 +1,42 @@
+.offer-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.offer-form-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.offer-heading {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    color: #690B22;
+    font-family: "Emilys Candy", serif;
+}
+
+.add-offer-btn {
+    padding: 0.8rem;
+    width: 100%;
+    background: #ff5a5f;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.add-offer-btn:hover {
+    background: #ff5a5f;
+}

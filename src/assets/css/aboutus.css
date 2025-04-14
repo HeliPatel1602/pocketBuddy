@@ -1,0 +1,76 @@
+.aboutus-container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.aboutfirst-container h3{
+    position: absolute;
+    bottom: 775px;
+    left: 32%;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 40px;
+    font-family: "Emilys Candy", serif;
+}
+
+.scroll-text{
+    position: absolute;
+    bottom: 750px;
+    left: 45%;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.aboutfirst-container img{ 
+    width: 1520px;
+}
+
+
+.home-link{
+    position: absolute;
+    text-decoration: none;
+    font-family: "Emilys Candy", serif;
+    color: white;
+    top: 35px;
+    left: 100px;
+    font-size: 25px;
+    letter-spacing: 2px;
+   
+}
+
+.aboutsecond-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+    margin-top: 50px;
+}
+
+.about-text-container{
+    margin-left: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-heading{
+    font-family: "Emilys Candy", serif;
+    color: #690B22;
+    font-weight: 500;
+}
+
+.about-text{
+    word-spacing: 2px;
+    color: rgb(21, 21, 21);
+}
+
+.about-sideimg{
+    margin-right: 50px;
+}
+
+.about-sideimg img{
+    height: 450px;
+    border-radius: 20px;
+}

@@ -1,0 +1,127 @@
+.rest-owner-panel-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.panel-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgba(255,255,255,0.2);
+  color: #690B22;
+  border-bottom: 1px solid #690B22;
+}
+
+.panel-navbar i{
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.panel-navbar h1 {
+  cursor: pointer;
+  font-family: "Emilys Candy", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-right: 100px;
+}
+
+.panel-sidebar {
+  font-family: "Roboto", serif;
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dash-heading {
+  margin-bottom: 10px;
+}
+
+.panel-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.panel-sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: background 0.3s;
+}
+
+.panel-sidebar ul li:hover {
+  background: #a0a0a0;
+}
+
+.panel-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.manage-offer-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.manage-offer-container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #690B22;
+  margin-bottom: 20px;
+  font-family: "Emilys Candy", serif;
+  letter-spacing: 1px;
+}
+
+.manage-offer-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafafa;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.manage-offer-container thead {
+  background: #ff5a5f;
+  color: white;
+}
+
+.manage-offer-container th, 
+.manage-offer-container td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.manage-offer-container tbody tr:hover {
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.delete-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
